@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Artikel Teknologi Terbaru</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Blog Teknologi Sederhana</h1>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>Apa itu HTML5?</h2>
+                [cite_start]<p><strong>HTML5</strong> adalah versi terbaru dari <em>Hypertext Markup Language</em>. [cite: 1423, 887] Ini memperkenalkan elemen-elemen baru untuk struktur yang lebih baik, seperti yang akan kita lihat di bawah ini.</p>
+            </section>
+
+            <section>
+                <h3>Elemen Semantik Baru</h3>
+                <p>Beberapa elemen baru yang sangat berguna antara lain:</p>
+                <ul>
+                    <li>&lt;article&gt; - [cite_start]Untuk konten mandiri. [cite: 541]</li>
+                    <li>&lt;aside&gt; - [cite_start]Untuk konten sampingan. [cite: 546]</li>
+                    <li>&lt;figure&gt; - [cite_start]Untuk mengelompokkan media seperti gambar. [cite: 1629]</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Contoh Tabel Perbandingan</h3>
+                <table>
+                    <caption>Perbandingan HTML4 dan HTML5</caption>
+                    <thead>
+                        <tr>
+                            <th>Fitur</th>
+                            <th>HTML4</th>
+                            <th>HTML5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Struktur Header</td>
+                            <td>&lt;div id="header"&gt;</td>
+                            <td>&lt;header&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Audio & Video</td>
+                            <td>Perlu Plugin</td>
+                            <td>Elemen &lt;audio&gt; & &lt;video&gt;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Daftar Buletin</h3>
+            <p>Dapatkan artikel terbaru langsung ke email Anda.</p>
+            <form>
+                <fieldset>
+                    <label for="email-input">Alamat Email:</label>
+                    <input type="email" id="email-input" placeholder="email@contoh.com" required>
+                    <input type="button" onclick="daftarBuletin()" value="Daftar Sekarang">
+                </fieldset>
+            </form>
+            <p id="pesan-konfirmasi"></p>
+        </aside>
+    </main>
+
+    <footer>
+        <p><small>&copy; 2025 Blog Sederhana.</small></p>
+    </footer>
+
+    <script src="blog_script.js"></script>
+</body>
+</html>

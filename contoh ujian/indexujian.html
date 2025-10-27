@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ringkasan Materi Ujian</title>
+    <link rel="stylesheet" href="">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contoh Halaman Lengkap</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Galeri</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <article>
+                <section>
+                    <h2>Pengenalan HTML (dari Web 002)</h2>
+                    <p>Halaman ini mendemonstrasikan berbagai elemen HTML5. <strong>Ini adalah teks tebal</strong>, dan <em>ini adalah teks miring (emphasis)</em>.</p>
+                </section>
+
+                <section>
+                    <h2>Struktur Data (dari Web 003)</h2>
+                    <p>Contoh daftar bernomor (Ordered List):</p>
+                    <ol>
+                        <li>Item pertama</li>
+                        <li>Item kedua</li>
+                    </ol>
+
+                    <p>Contoh daftar tidak bernomor (Unordered List):</p>
+                    <ul>
+                        <li>Poin A</li>
+                        <li>Poin B</li>
+                    </ul>
+                </section>
+                
+                <section>
+                     <h2>Tabel Data Mahasiswa (dari Web 003)</h2>
+                     <table>
+                        <caption>Data Nilai Praktikum</caption>
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th>Nilai</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Budi</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <td>Ani</td>
+                                <td>90</td>
+                            </tr>
+                        </tbody>
+                     </table>
+                </section>
+            </article>
+
+            <aside>
+                <h3>Interaksi dengan JavaScript (dari Web 006)</h3>
+                <p>Masukkan nama Anda di bawah ini dan klik tombol untuk melihat pesan.</p>
+                <form>
+                    <fieldset>
+                        <label for="namaPengguna">Nama:</label>
+                        <input type="text" id="namaPengguna" placeholder="Ketik nama Anda di sini">
+                        
+                        <input type="button" onclick="sapaPengguna()" value="Tampilkan Pesan">
+                    </fieldset>
+                </form>
+                
+                <h3 id="pesanSapaan" style="color: #c0392b;"></h3>
+            </aside>
+        </main>
+    </div>
+
+    <footer>
+        <p><small>&copy; 2025 - Ujian Praktikum.</small></p>
+    </footer>
+    <link rel="stylesheet" href="">
+    
+    <script src="script.js"></script>
+</body>
+</html>

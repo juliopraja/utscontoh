@@ -1,0 +1,96 @@
+/* Gaya dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #e83d3d;
+    color: #333;
+}
+
+/* Header dan Footer */
+header, footer {
+    background-color: #005A9C;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Layout Utama */
+main {
+    display: flex;
+    flex-direction: column; /* Default untuk mobile */
+    margin: 1rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+article {
+    flex: 3; /* Artikel lebih lebar */
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+aside {
+    flex: 1; /* Sidebar lebih sempit */
+    background-color: #e9ecef;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem; /* Jarak di tampilan mobile */
+}
+
+/* Styling Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+caption {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+th {
+    background-color: #005A9C;
+    color: white;
+}
+
+/* Styling Form di Sidebar */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+form input[type="email"] {
+    width: 95%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="button"] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#pesan-konfirmasi {
+    color: green;
+    font-weight: bold;
+}
+
+/* Breakpoint untuk RWD */
+@media screen and (min-width: 800px) {
+    main {
+        flex-direction: row; /* Layout berdampingan di layar besar */
+        gap: 1.5rem; /* Memberi jarak antara artikel dan sidebar */
+    }
+    aside {
+        margin-top: 0;
+    }
+}

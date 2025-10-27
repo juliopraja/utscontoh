@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="no-underline"><h1>PORTOFOLIO | Julio Praja Sarbunan</h1></a>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="portfolio.html">PORTOFOLIO</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Request Project</h2>
+    <form action="#" method="POST">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="jenis">Jenis Layanan:</label>
+      <select id="jenis" name="jenis" required>
+        <option value="">Pilih Layanan</option>
+        <option value="web">Pembuatan Website</option>
+        <option value="mobile">Pemasangan Jaringan</option>
+        <option value="design">Desain UI/UX</option>
+      </select>
+
+      <label for="pesan">Deskripsi Proyek:</label>
+      <textarea id="pesan" name="pesan" rows="5" placeholder="Jelaskan kebutuhan proyek Anda..."></textarea>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="konsultasi" name="konsultasi">
+        <label for="konsultasi">Ya, saya ingin konsultasi gratis</label>
+      </div>
+
+      <button type="submit">Kirim Permintaan</button>
+    </form>
+  </main>
+  <a href="index.html" class="no-underline"><h2>Home Page</h2></a>
+    <a href="portfolio.html" class="no-underline"><h2>Previous Page</h2></a>
+
+  <footer>
+    <p>&copy; 2025 Portofolio Julio Praja Sarbunan | <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+  </footer>
+</body>
+</html>
