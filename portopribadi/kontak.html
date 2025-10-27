@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portofolio Saya - Kontak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio Julio Praja</h1>
+        <p>Mahasiswa Teknik Informatika Semester 3</p>
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+    <main>
+        <h2>Hubungi Saya</h2>
+        <p>Silakan isi form di bawah ini untuk mengirim pesan.</p>
+        <form>
+            <label for="nama">Nama Anda:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama" required>
+            
+            <label for="email">Email Anda:</label>
+            <input type="email" id="email" placeholder="Masukkan email" required>
+            
+            <input type="button" onclick="kirimPesan()" value="Kirim Pesan">
+        </form>
+        <p id="pesan-feedback"></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Julio Praja Sarbunan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
